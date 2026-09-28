@@ -13,8 +13,8 @@ window.PROFILE = {
     sex: "male",                 // "female" (szuka) vagy "male" (kan)
     chip: "578000000000000",       // mikrochip szám
 
-    breed: { no: "Rase", en: "Breed", hu: "Fajta" },
-    color: { no: "Farge", en: "Colour", hu: "Szín" },
+    breed: { no: "Samoyed", en: "Samoyed", hu: "Samoyed" },
+    color: { no: "Hvit", en: "White", hu: "Fehér" },
 
     about: {
       no: "Jeg er vennlig og litt sjenert. Jeg elsker godbiter!",
@@ -35,7 +35,7 @@ window.PROFILE = {
       name: "Réka Kőszegi",
       email: "koszegireka7@gmail.com",
       phones: [
-        { number: "+47 000 00 000", country: "NO", whatsapp: false },
+        { number: "+47 45 91 32 87", country: "NO", whatsapp: false },
         { number: "+36 30 358 8806", country: "HU", whatsapp: false },
       ],
     },
