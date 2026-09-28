@@ -1,30 +1,32 @@
 :root {
-  --bg: #fdf8f3;
+  --bg: #f4f8fc;
   --card: #ffffff;
-  --text: #2a2420;
-  --muted: #7a6f66;
-  --line: #efe6dd;
-  --accent: #e0703a;
-  --accent-ink: #ffffff;
-  --accent-soft: #fbe9df;
+  --text: #1f2a36;
+  --muted: #66768a;
+  --line: #e1e9f2;
+  --accent: #8ebde9;
+  --accent-ink: #0f2a44;
+  --accent-strong: #2f6aa3;
+  --accent-soft: #e3effa;
   --wa: #1fa855;
   --warn-bg: #fff4d6;
   --warn-line: #f0d68a;
   --warn-text: #6b5210;
-  --shadow: 0 1px 2px rgba(60, 40, 20, .04), 0 8px 24px rgba(60, 40, 20, .06);
+  --shadow: 0 1px 2px rgba(30, 60, 100, .04), 0 8px 24px rgba(30, 60, 100, .07);
   --radius: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1714;
-    --card: #24201c;
-    --text: #f3ece6;
-    --muted: #a99d93;
-    --line: #36302a;
-    --accent: #f08a54;
-    --accent-ink: #1a1714;
-    --accent-soft: #3a2a20;
+    --bg: #12171d;
+    --card: #1a2129;
+    --text: #e8eef5;
+    --muted: #93a2b3;
+    --line: #2a3440;
+    --accent: #8ebde9;
+    --accent-ink: #0f2a44;
+    --accent-strong: #a9cff2;
+    --accent-soft: #1f3044;
     --wa: #2bc265;
     --warn-bg: #3a3118;
     --warn-line: #5c4c1e;
@@ -172,7 +174,7 @@ body {
   padding: 3px 7px;
   border-radius: 6px;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-strong);
 }
 
 /* ---------- Buttons ---------- */
@@ -220,7 +222,7 @@ body {
 /* ---------- Location ---------- */
 .hint { margin: 0 0 14px; color: var(--muted); }
 .loc-result { margin-top: 12px; display: grid; gap: 8px; }
-.loc-error { margin-top: 10px; color: var(--accent); font-size: 14px; }
+.loc-error { margin-top: 10px; color: var(--accent-strong); font-size: 14px; }
 
 /* ---------- Details ---------- */
 .facts {
